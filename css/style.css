@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего текста */
+    background-color: #ffffff; /* Цвет фона страницы */
+    color: #333; /* Цвет текста */
+}
+
+.full {
+    width: 1920px;
+    height: 5489px; /* Высота страницы */
+}
+
+
+
+.text1 {
+    color: rgb(0, 0, 0); /* Цвет текста */
+    border-radius: 3px;
+    padding: 3px 6px; /* Отступы вокруг текста */
+    display: inline-block;
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.text1:hover {
+    padding: 2px 6px; /* Сохраняем отступы при наведении */
+    background-color: #0000000c; /* Цвет фона при наведении */
+}
+
+.wallet {
+    color: #000;
+    border-radius: 10px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.wallet:hover {
+    background-color: #333; /* Цвет фона при наведении */
+}
+
+.hero {
+    position: relative; /* Позволяет позиционировать дочерние элементы относительно этого блока */
+}
+
+.hero__background {
+    width: 1920px; /* Ширина черного квадрата */
+    height: 680px; /* Высота черного квадрата */
+    background-color: black; /* Цвет фона */
+    position: absolute; /* Позволяет позиционировать квадрат */
+    top: 0; /* Положение сверху */
+    left: 0; /* Положение слева */
+    z-index: 1; /* Убедитесь, что фон находится ниже других элементов */
+}
+
+.buttons {
+    margin-top: 20px; /* Отступ между текстом и кнопками */
+}
+
+.button {
+    background-color: #007BFF; /* Цвет фона кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 10px 20px; /* Отступы внутри кнопок */
+    cursor: pointer; /* Указываем, что это кнопка */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+.hero__stickers{
+    margin-left: auto;
+}
+.hero__text {
+    position: relative; /* Позволяет размещать текст над фоном */
+    z-index: 2; /* Убедитесь, что текст находится выше фона */
+    color: white; /* Цвет текста */
+    padding: px; /* Отступы для текста */
+}
+
+.stickers {
+    width: 1920px;
+    height: 1075px;
+    border: 10px solid #522727; /* Рамка вокруг блока */
+    margin-top: 680px; /* Отступ сверху */
+}
+
+/* Дополнительные стили для других секций, если необходимо */
+

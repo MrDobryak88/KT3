@@ -1,0 +1,7 @@
+//base
+@import "./base/reset"; //Подключаем к Main _reset.cscc и остальные
+@import "./base/vars"; 
+@import "./base/base";
+
+//Подключаю блок
+@import "./blocks/header" //подключаю блок header 

@@ -1,0 +1,30 @@
+//без _ в начале название, он будет считаться как отдельный файл который надо отдельно скомпилировать,
+// а с ним он является частью одного из файлов 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*
+ font-family: "Russo One", sans-serif;
+ font-family: "Montserrat", sans-serif;
+
+*/
+body {
+    font-family: $font-main;
+    background-color: $white; 
+    color: $black;
+    font-size: 2 0px;
+}
+a{
+    color:$invisible_text;
+    transition: color 0.2s ease-in;
+    &:hover{
+        color: $white
+    }
+}
+.container {
+    margin: 0 auto;//Выравнение по середине
+    padding: auto;//Отступы
+    width: 1280px;//Большинство фреймов ширину 1280 пиксилей
+    background-color: red;
+}

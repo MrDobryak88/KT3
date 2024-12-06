@@ -1,0 +1,10 @@
+ .header{
+
+    min-height: 80px;
+    min-width: 1920px;
+    background-color: FFFFFF;
+    display: flex; /* Используем flexbox для расположения элементов в строку */
+    justify-content: space-around; /* Распределяем элементы равномерно */
+    border: 2px solid #007BFF; /* Рамка вокруг блока */
+    padding: 10px; /* Отступы внутри блока */
+ }
